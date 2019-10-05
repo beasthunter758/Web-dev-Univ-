@@ -1,0 +1,35 @@
+body {
+    background:#ffffff;
+  }
+  .a {
+      width:600px; 
+      height:406px;
+      overflow:hidden;
+      background-image:url(https://xcomp.edu.in/img/blog-img/2.jpg);
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    box-shadow:0 0 10px 1px rgb(240, 6, 6);
+  }		
+  .b {
+      width:0; 
+      height:256px;
+      overflow:hidden;
+      margin-left:-50px;
+      transform:skew(-20deg);
+      transition:width 1s ease;
+  }		
+  .a:hover .b {
+      width:604px;
+  }
+  .c {
+      width:800px; 
+      height:600px;
+      transform:skew(20deg);
+      margin-left:-64px;
+      background-image:url(https://static.careers360.mobi/media/article_images/2017/11/03/XUB-Campus.jpg);
+     background-position:114px 0;
+  }		
